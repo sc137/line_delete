@@ -1,7 +1,7 @@
 #!/bin/sh
 # restore test files after lined.sh test
 
-if [ ! -f "test1.bkp" ];
+if [ ! -f "bkp/test1.bkp" ];
 then
 	/bin/echo "Backup file not found. Exiting."
 	exit
@@ -9,7 +9,7 @@ else
 	if [ -f test1 ];
 		then
 			rm test1
-			cp test1.bkp test1
+			cp bkp/test1.bkp test1
 		else
 			/bin/echo "test1 not found. exiting."
 			exit 1;
