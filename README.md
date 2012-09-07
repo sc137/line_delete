@@ -1,8 +1,8 @@
 # Line Delete
 
-Deletes, in reverse order, lines from file1 as specified in file2.
+Deletes, in reverse order, lines from file1 as specified in file2. The script will show you how many lines in the original file, the updated file, and what the difference is.
 
-This comes up a bunch when working with banner.
+(This comes up a bunch when working with banner.)
 
 **Please make sure your line endings do NOT contain CR (convert to UNIX line endings)** 
 
@@ -10,12 +10,11 @@ This happens when the files go in and out of windows apps.
 
 ## Testing
 
-./line_d.sh test1 test2
+    ./line_d.sh test1 test2
 
-That will show you how it works.
+## Restore the test files
 
-./restore_test.sh will put it all back.
-
+    ./restore_test.sh
 
 Example:
 
