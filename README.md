@@ -1,5 +1,9 @@
 # Line Delete
 
+	Usage:  ./lined.sh  file1 file2
+	file1 is the data file
+	file2 is the file listing lines to be deleted
+
 Deletes, in reverse order, lines from file1 as specified in file2. The script will show you how many lines in the original file, the updated file, and what the difference is.
 
 (This comes up a bunch when working with banner.)
