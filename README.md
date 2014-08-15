@@ -10,9 +10,9 @@ This happens when the files go in and out of windows apps.
 
 ## Testing
 
-    ./line_d.sh test1 test2
+    ./lined.sh test1 test2
 
-## Restore the test files
+## Restore the tested files
 
     ./restore_test.sh
 
